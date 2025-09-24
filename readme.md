@@ -7,7 +7,7 @@ An AI-powered backend API for extracting structured data fields from invoice doc
 - Extract vendor details, invoice information, line items, and totals.
 - Supports PDF and common image formats (JPG, PNG, WEBP).
 - Returns data with field-level confidence scores.
-- Uses OpenAI GPT-4 Vision-based model for extraction.
+- Uses OpenAI GPT-5 Vision-based model for extraction.
 - Easy to integrate via REST API.
 - PDF processing via `pdf2image` and poppler-utils.
 - CORS enabled for frontend integration.
