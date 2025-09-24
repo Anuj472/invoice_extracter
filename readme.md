@@ -31,7 +31,13 @@ cd <repo-directory>
 2. Create and activate a virtual environment:
 
 python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
+
+# On Linux:
+
+source venv/bin/activate 
+# On Windows: 
+
+venv\Scripts\activate
 
 
 3. Install dependencies:
