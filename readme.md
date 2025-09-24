@@ -26,43 +26,41 @@ An AI-powered backend API for extracting structured data fields from invoice doc
 git clone <repo-url>
 cd <repo-directory>
 
-text
+
 
 2. Create and activate a virtual environment:
 
 python -m venv venv
 source venv/bin/activate # On Windows: venv\Scripts\activate
 
-text
 
 3. Install dependencies:
 
 pip install -r requirements.txt
 
-text
+
 
 4. Create a `.env` file in the root directory and add your OpenAI API key:
 
 OPENAI_API_KEY=sk-your-openai-api-key
 
-text
+
 
 5. Ensure poppler-utils is installed on your OS if you want PDF support:
 
 - On Ubuntu: 
 sudo apt-get install poppler-utils
 
-text
+
 - On MacOS (with Homebrew):
 brew install poppler
 
-text
+
 
 ## Running the API Server
 
 uvicorn simple_main:app --reload
 
-text
 
 The API will be available at http://localhost:8000 .
 
@@ -76,7 +74,6 @@ The API will be available at http://localhost:8000 .
 
 curl -X POST "http://localhost:8000/extract" -F "file=@/path/to/invoice.pdf"
 
-text
 
 ## Response Format
 
