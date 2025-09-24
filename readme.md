@@ -31,12 +31,6 @@ cd <repo-directory>
 2. Create and activate a virtual environment:
 
 python -m venv venv
-<<<<<<< HEAD
-source venv/bin/activate 
-
-## on Windows: venv\Scripts\activate
-=======
->>>>>>> 1bc1ac5a3169ddc6949a9180da5c07a22c2ab020
 
 # On Linux:
 
